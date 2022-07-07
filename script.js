@@ -61,16 +61,16 @@ function getNumber() {
    if (typeof inputNumber === "number") {
       if (inputNumber === randomNumber) {
          output.innerHTML = "すみっこオールスター";                    // すみっこオールスター　表示
-         document.getElementById("outputImage").innerHTML = "<img src='images/allstar.png'>";
+         document.getElementById("outputImage").innerHTML = "<img src='allstar.png'>";
       } else if (inputNumber > randomNumber) {
          output.innerHTML = "ねこ";                    // ねこ　表示
-         document.getElementById("outputImage").innerHTML = "<img src='images/neko.png'>";
+         document.getElementById("outputImage").innerHTML = "<img src='neko.png'>";
       } else if (inputNumber < randomNumber) {
          output.innerHTML = "とかげ";                    // とかげ　表示
-         document.getElementById("outputImage").innerHTML = "<img src='images/tokage.png'>";
+         document.getElementById("outputImage").innerHTML = "<img src='tokage.png'>";
       } else {
          output.innerHTML = "たぴおか";                    // たぴおか　を表示
-         document.getElementById("outputImage").innerHTML = "<img src='images/tapioka.png'>";
+         document.getElementById("outputImage").innerHTML = "<img src='tapioka.png'>";
       }
    } else if (typeof inputNumber === "string") {
       if (inputNumber === "とかげ") {
